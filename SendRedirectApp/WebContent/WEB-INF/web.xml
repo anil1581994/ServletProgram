@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+<servlet-name>DemoServlet</servlet-name>
+<servlet-class>com.bridgelabz.program.MySearcher</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>DemoServlet</servlet-name>
+<url-pattern>/mysearch</url-pattern>
+</servlet-mapping>
+<welcome-file-list>
+<welcome-file>index.html</welcome-file>
+</welcome-file-list>
+</web-app>

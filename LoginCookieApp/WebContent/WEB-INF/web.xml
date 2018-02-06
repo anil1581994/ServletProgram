@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>servlet1</servlet-name>
+		<servlet-class>com.bridgelabz.program.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>servlet1</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>servlet2</servlet-name>
+		<servlet-class>com.bridgelabz.program.LogoutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>servlet2</servlet-name> 
+		<url-pattern>/LogoutServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>servlet3</servlet-name>
+		<servlet-class>com.bridgelabz.program.ProfileServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>servlet3</servlet-name>
+		<url-pattern>/ProfileServlet</url-pattern>
+	</servlet-mapping>
+</web-app>

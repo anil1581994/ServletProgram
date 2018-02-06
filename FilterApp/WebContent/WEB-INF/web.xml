@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>  
+  
+<servlet>  
+<servlet-name>TargetServlet</servlet-name>  
+<servlet-class>com.bridgelabz.program.AdminServlet</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>TargetServlet</servlet-name>  
+<url-pattern>/servlet1</url-pattern>  
+</servlet-mapping>  
+ <filter>
+ <filter-name>Filter</filter-name>
+ <filter-class>com.bridgelabz.program.MyFilter</filter-class>
+ </filter>
+ <filter-mapping>
+ <filter-name>Filter</filter-name>
+ <url-pattern>/servlet1</url-pattern>
+ </filter-mapping>
+
+  <welcome-file-list>  
+   <welcome-file>index.html</welcome-file>  
+   <welcome-file>default.html</welcome-file>  
+  </welcome-file-list>  
+  
+</web-app>  

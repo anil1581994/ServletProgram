@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>  
+<servlet>  
+<servlet-name>s1</servlet-name>  
+<servlet-class>com.bridgelabz.program.DemoServlet1</servlet-class>  
+<load-on-startup>1</load-on-startup>
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>s1</servlet-name>  
+<url-pattern>/</url-pattern>
+<url-pattern>/servlet1</url-pattern>  
+</servlet-mapping>  
+  
+<servlet>  
+<servlet-name>s2</servlet-name>  
+<servlet-class>com.bridgelabz.program.DemoServlet2</servlet-class>  
+<load-on-startup>1</load-on-startup>
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>s2</servlet-name>  
+<url-pattern>/servlet2</url-pattern>  
+</servlet-mapping>  
+  <!-- <welcome-file-list>  
+   <welcome-file>default.html</welcome-file>  
+  </welcome-file-list>   -->
+  
+</web-app>  

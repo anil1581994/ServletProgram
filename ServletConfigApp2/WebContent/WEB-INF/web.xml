@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>AliasNameOfServlet</servlet-name>
+		<servlet-class>com.bridgelabz.program.ReadEnumParam</servlet-class>
+		 <load-on-startup>1</load-on-startup>  
+		<init-param>
+			<param-name>userName</param-name>
+			<param-value>bridgeit</param-value>
+		</init-param>
+		<init-param>
+			<param-name>password</param-name>
+			<param-value>bridgelabz</param-value>
+		</init-param>
+		<init-param>
+			<param-name>Hardle unlock by only</param-name>
+			<param-value>consistent hardwork</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AliasNameOfServlet</servlet-name>
+		<url-pattern>/enumparam</url-pattern>
+	</servlet-mapping>
+</web-app>

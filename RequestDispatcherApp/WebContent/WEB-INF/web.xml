@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+	<servlet>
+		<servlet-name>Servlet1</servlet-name>
+		<servlet-class>com.bridgelabz.program.Login</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>Servlet2</servlet-name>
+		<servlet-class>com.bridgelabz.program.WelcomeServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Servlet1</servlet-name>
+		<url-pattern>/srv1</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Servlet2</servlet-name>
+		<url-pattern>/srv2</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>login.html</welcome-file>
+	</welcome-file-list>
+
+</web-app>
